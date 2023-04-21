@@ -1,0 +1,31 @@
+body {
+    padding: 0px;
+}
+
+.top {
+    background-color: #303030;
+}
+
+.brand {
+    font-family: 'Oleo Script';
+    text-decoration: none;
+    color: #fff;
+    font-size: 3rem;
+}
+
+.bg-light {
+    text-transform: uppercase;
+    font-weight: bold;
+    --bs-light-rgb: transparent;
+}
+
+.navbar {}
+
+.nav-item {
+    padding: 1rem;
+}
+
+.offcanvas-start {
+    width: 100% !important;
+    max-width: 100% !important;
+}
