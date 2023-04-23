@@ -75,3 +75,20 @@ h1 {
     width: 10px;
     height: 10px;
 }
+
+.custom-style {
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    border-top: solid black 3px;
+    padding: 10px;
+}
+
+.custom-style:focus {
+    outline: none;
+}
+
+.message {
+    border-bottom: solid black 1px;
+    padding-bottom: 8%;
+}
