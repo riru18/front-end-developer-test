@@ -18,3 +18,49 @@
 .nav-item {
     padding: 1rem;
 }
+
+main {
+    color: #fff;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+}
+
+
+h1 {
+    font-weight: 600;
+    font-size: 16rem;
+    max-width: 540px;
+}
+
+.highlight {
+    color: #7b6c63;
+}
+
+.first {
+    z-index: 1;
+    position: relative;
+
+}
+
+.carousel-section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.carousel-container {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    position: absolute;
+
+}
+
+.img-car {
+    width: 100%;
+    min-height: 300px;
+}
