@@ -64,3 +64,14 @@ h1 {
     width: 100%;
     min-height: 300px;
 }
+
+.carousel .carousel-indicators {
+    justify-content: start;
+    margin-left: 6%;
+}
+
+.carousel .carousel-indicators button {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
