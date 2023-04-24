@@ -57,7 +57,7 @@ main {
 
 .first .button {
     color: #fff;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.1);
     margin-top: 30px;
     padding: 15px 70px;
     border-radius: 2px;
