@@ -10,13 +10,18 @@
 }
 
 .navbar {
-
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 400;
+    --bs-navbar-color: #fff !important;
+    --bs-navbar-active-color: #fff !important;
 }
 
 .nav-item {
     padding: 1rem;
+}
+
+.offcanvas {
+    --bs-offcanvas-bg: #303030 !important;
 }
 
 main {
@@ -39,7 +44,15 @@ h1 {
 .first {
     z-index: 1;
     position: relative;
+}
 
+.first .button {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-top: 30px;
+    padding: 15px 70px;
+    border-radius: 2px;
+    border: 2px;
 }
 
 .carousel-section {
